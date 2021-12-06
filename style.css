@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(148, 165, 103);
+}
+
+h1 {
+  color: white;
+  margin-top: 80px;
+}
+
+img {
+  padding: 20px;
+  background-color: thistle;
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin-top: 40px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(70, 87, 62);
+  color: white;
+  height: 80px;
+  width: 160px;
+  border: none;
+  margin-top: 50px;
+  font-size: 18px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+@media screen and (min-width: 700px){
+
+  img {
+    width: 500px;
+  }
+
+  button {
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
