@@ -5,6 +5,7 @@
   --frameColor: #f0cdd8;
   --accentColor: #ff69b4;
   --mainFont: 'myWebFont';
+  --buttonFont: 'chickenPie';
  
 }
 
@@ -14,7 +15,12 @@
 
 @font-face {
   font-family: 'myWebFont';
-  src: url('Storytime.woff2') format('woff2');
+  src: url('fonts/Storytime.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'chickenPie';
+  src: url('fonts/ChickenPie.woff') format('woff');
 }
 
 body {
@@ -54,6 +60,7 @@ img {
 }
 
 button {
+  font-family: 'chickenPie';
   display: flex;
   justify-content: center;
   align-items: center;

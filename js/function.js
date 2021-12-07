@@ -2,7 +2,15 @@ const sloths = ["https://media.giphy.com/media/UtIv0Dp0ZhgQw/giphy.gif",
 "https://media.giphy.com/media/VTjMuV5o8r4eA/giphy.gif", 
 "https://media.giphy.com/media/MXB7R8wBLfHz2/giphy.gif",
 "https://media.giphy.com/media/12qRcaFWzF5yik/giphy.gif",
-"https://media.giphy.com/media/QeVflwrx8cHzq/giphy.gif"];
+"https://media.giphy.com/media/QeVflwrx8cHzq/giphy.gif",
+"https://media.giphy.com/media/uot717nm9aLTO/giphy.gif",
+"https://media.giphy.com/media/t8ftut6HiWEPm/giphy.gif",
+"https://media.giphy.com/media/7hzoHpbXXhqmY/giphy.gif",
+"https://media.giphy.com/media/slKY98OIDwFJ6/giphy.gif",
+"https://media.giphy.com/media/G450NfEHoUo7e/giphy.gif",
+"https://media.giphy.com/media/QfmRynMcJiiHe/giphy.gif",
+"https://media.giphy.com/media/jt2ssP0zeoskzVjf4e/giphy.gif",
+];
 
 
 // Function that randomizes a gif. 

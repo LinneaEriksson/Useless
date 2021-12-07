@@ -1,1 +1,0 @@
-const array = ["Hello", "Hello", "Hello", "Hello"];
