@@ -2,13 +2,20 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: 'MyWebFont';
+  src: url('Storytime.woff2') format('woff2');
+}
+
 body {
   background-color: rgb(148, 165, 103);
 }
 
 h1 {
   color: white;
-  margin-top: 80px;
+  margin-top: 40px;
+  font-family: 'MyWebFont';
+  font-size: 30px;
 }
 
 img {
@@ -36,10 +43,11 @@ button {
   height: 80px;
   width: 160px;
   border: none;
-  margin-top: 50px;
+  margin-top: 40px;
   font-size: 18px;
   margin-left: 10px;
   margin-right: 10px;
+  cursor: pointer;
 }
 
 .buttonContainer {
@@ -51,11 +59,11 @@ button {
 @media screen and (min-width: 700px){
 
   img {
-    width: 500px;
+    width: 40%;
   }
 
   button {
-    margin-top: 100px;
+    margin-top: 40px;
     margin-left: 40px;
     margin-right: 40px;
   }
