@@ -1,26 +1,34 @@
+:root {
+  --mainFontColor: white;
+  --mainBackgroundColor: rgb(148, 165, 103);
+  --buttonColor:rgb(70, 87, 62);
+  --frameColor: thistle;
+  --mainFont: 'myWebFont';
+}
+
 * {
   box-sizing: border-box;
 }
 
 @font-face {
-  font-family: 'MyWebFont';
+  font-family: 'myWebFont';
   src: url('Storytime.woff2') format('woff2');
 }
 
 body {
-  background-color: rgb(148, 165, 103);
+  background-color: var(--mainBackgroundColor);
 }
 
 h1 {
-  color: white;
+  color: var(--mainFontColor);
   margin-top: 40px;
-  font-family: 'MyWebFont';
+  font-family: var(--mainFont);
   font-size: 30px;
 }
 
 img {
   padding: 20px;
-  background-color: thistle;
+  background-color: var(--frameColor);
   display: flex;
   align-items: center;
   width: 90%;
@@ -38,8 +46,8 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(70, 87, 62);
-  color: white;
+  background-color: var(--buttonColor);
+  color: var(--mainFontColor);
   height: 80px;
   width: 160px;
   border: none;
