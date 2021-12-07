@@ -31,4 +31,19 @@ function changeGif(){
       howAboutNo();
     });
 
+
+    // TEST FÖR ATT FÅ TILL SCROLL 
+
+    // window.addEventListener("scroll", () => {
+    //   document.body.style.backgroundColor =
+    //     window.scrollY > 600 ? "#ff69b4" : "--mainBackgroundColor";
+    // });
       
+
+    window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  if (document.body.scrollTop > 350 || document.documentElement.scrollTop > 350) {
+    document.getElementById("container").className = "slideUp";
+  }
+}

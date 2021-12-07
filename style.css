@@ -1,9 +1,9 @@
 :root {
   --mainFontColor: white;
-  --mainBackgroundColor: rgb(148, 165, 103);
-  --buttonColor: rgb(92, 117, 64);
-  --frameColor: rgb(240, 205, 216);
-  --accentColor: hotpink;
+  --mainBackgroundColor: #94a567;
+  --buttonColor: #5c7540;
+  --frameColor: #f0cdd8;
+  --accentColor: #ff69b4;
   --mainFont: 'myWebFont';
  
 }
@@ -47,6 +47,10 @@ img {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+}
+
+.slideUp {
+  background-color: black;
 }
 
 button {
