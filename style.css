@@ -58,6 +58,18 @@ button {
   cursor: pointer;
 }
 
+button:hover{
+  background-color: rgb(92, 117, 64);
+}
+
+.partyStarter {
+  background-color: hotpink;
+}
+
+.partyStarter:hover {
+  background-color: rgb(218, 27, 122);
+}
+
 .buttonContainer {
   display: flex;
   justify-content: center;

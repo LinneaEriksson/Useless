@@ -5,10 +5,12 @@ const sloths = ["https://media.giphy.com/media/UtIv0Dp0ZhgQw/giphy.gif",
 "https://media.giphy.com/media/QeVflwrx8cHzq/giphy.gif"];
 
 
+// Function that randomizes a gif. 
+
 function changeGif(){
   const random = Math.floor(Math.random() * sloths.length);
   const randomGif = (random, sloths[random]);
-  document.getElementById("test").src = randomGif;
+  document.getElementById("gif").src = randomGif;
   }
 
   const buttonEat = document.querySelector('.sloth');
@@ -17,11 +19,10 @@ function changeGif(){
     changeGif();
   });
 
-
-
+// Function that changes gif to How about no gif. 
 
   function howAboutNo(){
-    document.getElementById("test").src = "https://media.giphy.com/media/O9BPkYr89lK2A/giphy.gif";
+    document.getElementById("gif").src = "https://media.giphy.com/media/O9BPkYr89lK2A/giphy.gif";
     }
   
     const noSloth = document.querySelector('.noSloth');
@@ -29,3 +30,16 @@ function changeGif(){
     noSloth.addEventListener("click", function (e) {
       howAboutNo();
     });
+
+
+  // Functions to start a party! 
+
+    function howAboutNo(){
+      document.getElementById("partyStarter").src = "https://media.giphy.com/media/DiTBTEv8bxGZG/giphy.gif";
+      }
+    
+      const noSloth = document.querySelector('.noSloth');
+    
+      noSloth.addEventListener("click", function (e) {
+        howAboutNo();
+      });
