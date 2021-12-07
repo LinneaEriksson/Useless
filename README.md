@@ -1,24 +1,29 @@
-INSERT MANDATORY GIF
+<img src="https://media.giphy.com/media/I8eorWE0QuYYU/giphy.gif">
 
-# Project Title
+# This is useless
 
-Text about the project. This would also be a great place to link the game on Netlify.
+This is a school project to do an useless web. 
 
 # Installation
 
-Add the installation instructions.
+
+ 1. You can clone this repo and open it with your favourite code-editor.
+ 2. Open a localhost in your terminal by writing: php -S localhost:8000
+ 3. Visit the localhost in your browser.
+ 4. Enjoy!
+
 
 # Code Review
 
-1. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
-1. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
-1. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
-1. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
-1. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
+1. `example.js:10-15` - 
+1. `example.js:10-15` - 
+1. `example.js:10-15` - 
+1. `example.js:10-15` - 
+1. `example.js:10-15` - 
 
 # Testers
 
 Tested by the following people:
 
-1. Jane Doe
-2. John Doe
+1. -
+2. -
