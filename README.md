@@ -2,7 +2,7 @@
 
 # This is useless
 
-This is a school project to do an useless web. 
+This is a school project to do an useless web. You can visit my site here: https://thisisuseless.netlify.app/
 
 # Installation
 
