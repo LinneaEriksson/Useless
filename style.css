@@ -1,9 +1,11 @@
 :root {
   --mainFontColor: white;
   --mainBackgroundColor: rgb(148, 165, 103);
-  --buttonColor:rgb(70, 87, 62);
-  --frameColor: thistle;
+  --buttonColor: rgb(92, 117, 64);
+  --frameColor: rgb(240, 205, 216);
+  --accentColor: hotpink;
   --mainFont: 'myWebFont';
+ 
 }
 
 * {
@@ -26,6 +28,10 @@ h1 {
   font-size: 30px;
 }
 
+.pinkText {
+  color: var(--accentColor) ;
+}
+
 img {
   padding: 20px;
   background-color: var(--frameColor);
@@ -34,6 +40,7 @@ img {
   width: 90%;
   margin-top: 40px;
 }
+
 
 .container {
   display: flex;
@@ -59,15 +66,21 @@ button {
 }
 
 button:hover{
-  background-color: rgb(92, 117, 64);
+  background-color: rgb(70, 87, 62);
+  color: var(--accentColor)
 }
 
 .partyStarter {
-  background-color: hotpink;
+  background-color:  
+  var(--accentColor);
+  width: 200px;
+  height: 100px;
+  border-radius: 50%;
 }
 
 .partyStarter:hover {
   background-color: rgb(218, 27, 122);
+  color: var(--mainFontColor);
 }
 
 .buttonContainer {

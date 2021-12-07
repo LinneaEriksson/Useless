@@ -31,15 +31,4 @@ function changeGif(){
       howAboutNo();
     });
 
-
-  // Functions to start a party! 
-
-    function howAboutNo(){
-      document.getElementById("partyStarter").src = "https://media.giphy.com/media/DiTBTEv8bxGZG/giphy.gif";
-      }
-    
-      const noSloth = document.querySelector('.noSloth');
-    
-      noSloth.addEventListener("click", function (e) {
-        howAboutNo();
-      });
+      
