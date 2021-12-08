@@ -53,16 +53,11 @@ function changeGif(){
     //   addSpin();
     // });
 
-    // TEST FÖR ATT FÅ TILL SCROLL 
 
-    // window.addEventListener("scroll", () => {
-    //   document.body.style.backgroundColor =
-    //     window.scrollY > 600 ? "#ff69b4" : "#985728";
-    // });
-      
+    // function to change the backgroundcolor when you scroll down. 
 
     function changeBackground(){
-      if (window.scrollY > window.innerHeight/2){
+      if (window.scrollY > window.innerHeight/1){
         document.body.classList.add('backgroundColor');
       }else {
         document.body.classList.remove('backgroundColor');
