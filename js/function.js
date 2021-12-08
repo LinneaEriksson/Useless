@@ -57,7 +57,10 @@ function changeGif(){
     // function to change the backgroundcolor when you scroll down. 
 
     function changeBackground(){
-      if (window.scrollY > window.innerHeight/1){
+
+      // console.log(document.body.getBoundingClientRect())
+
+      if (window.scrollY > window.innerHeight/2){
         document.body.classList.add('backgroundColor');
       }else {
         document.body.classList.remove('backgroundColor');
