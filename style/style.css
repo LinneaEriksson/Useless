@@ -29,11 +29,7 @@
 body {
   background-color: var(--mainBackgroundColor);
 }
-.backgroundColor{
-  background-color: violet;
-}
 
-}
 h1 {
   color: var(--mainFontColor);
   margin-top: 40px;
