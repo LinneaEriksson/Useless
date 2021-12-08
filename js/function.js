@@ -40,20 +40,6 @@ function changeGif(){
     });
 
 
-
-    // HELLdnasjkldnhsajlknfas
-
-    // function addSpin() {
-    //   const spinnings = document.querySelector(".ImgOfSloth");
-    //   spinnings.classList.add("spin");
-    // } 
-
-    // const spinning = document.querySelectorAll(".ImgOfSloth");
-    // spinning.addEventListener("mouseover", function (e) {
-    //   addSpin();
-    // });
-
-
     // function to change the backgroundcolor when you scroll down. 
 
     function changeBackground(){
@@ -67,4 +53,20 @@ function changeGif(){
       }
     }
     window.addEventListener('scroll', changeBackground);
+
+
+
+     // This does NOT work.
+
+    function addSpin() {
+      const spinnings = document.querySelector(".ImgOfSloth");
+      spinnings.classList.add("spin");
+    } 
+
+    const spinning = document.querySelectorAll(".ImgOfSloth");
+    
+    spinning.addEventListener("mouseover", function (e) {
+      addSpin();
+    });
+
   
