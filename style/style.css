@@ -5,12 +5,19 @@
   --frameColor: #f0cdd8;
   --accentColor: #ff69b4;
   --mainFont: 'myWebFont';
-  --buttonFont: 'chickenPie';
- 
 }
 
 * {
   box-sizing: border-box;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 @font-face {
@@ -18,15 +25,15 @@
   src: url('fonts/Storytime.woff2') format('woff2');
 }
 
-@font-face {
-  font-family: 'chickenPie';
-  src: url('fonts/ChickenPie.woff') format('woff');
-}
 
 body {
   background-color: var(--mainBackgroundColor);
 }
+.backgroundColor{
+  background-color: violet;
+}
 
+}
 h1 {
   color: var(--mainFontColor);
   margin-top: 40px;
@@ -100,6 +107,22 @@ button:hover{
   flex-direction: row;
   align-items: center;
 }
+
+.slothsDiv {
+  display: flex;
+  flex-direction: row;
+}
+
+.imgOfSloth {
+padding: 0px;
+background-color: transparent;
+margin: 10px;
+}
+
+.spin {
+  animation: spin 1s linear infinite;
+}
+
 @media screen and (min-width: 700px){
 
   img {
@@ -108,7 +131,12 @@ button:hover{
 
   button {
     margin-top: 40px;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
+  .imgOfSloth {
+   margin: 40px;
+   width: 40px;
+    }
+
 }

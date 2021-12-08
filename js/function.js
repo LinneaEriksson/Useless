@@ -40,18 +40,33 @@ function changeGif(){
     });
 
 
+
+    // HELLdnasjkldnhsajlknfas
+
+    // function addSpin() {
+    //   const spinnings = document.querySelector(".ImgOfSloth");
+    //   spinnings.classList.add("spin");
+    // } 
+
+    // const spinning = document.querySelectorAll(".ImgOfSloth");
+    // spinning.addEventListener("mouseover", function (e) {
+    //   addSpin();
+    // });
+
     // TEST FÖR ATT FÅ TILL SCROLL 
 
     // window.addEventListener("scroll", () => {
     //   document.body.style.backgroundColor =
-    //     window.scrollY > 600 ? "#ff69b4" : "--mainBackgroundColor";
+    //     window.scrollY > 600 ? "#ff69b4" : "#985728";
     // });
       
 
-    window.onscroll = function() {myFunction()};
-
-function myFunction() {
-  if (document.body.scrollTop > 350 || document.documentElement.scrollTop > 350) {
-    document.getElementById("container").className = "slideUp";
-  }
-}
+    function changeBackground(){
+      if (window.scrollY > window.innerHeight/2){
+        document.body.classList.add('backgroundColor');
+      }else {
+        document.body.classList.remove('backgroundColor');
+      }
+    }
+    window.addEventListener('scroll', changeBackground);
+  
