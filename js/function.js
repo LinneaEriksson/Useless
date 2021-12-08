@@ -56,17 +56,17 @@ function changeGif(){
 
 
 
-     // This does NOT work.
-
-    function addSpin() {
-      const spinnings = document.querySelector(".ImgOfSloth");
+ // This is working! 
+  
+    document.querySelector(".imgOfSloth").addEventListener("mouseover", function () {
+      const spinnings = document.querySelector(".imgOfSloth");
       spinnings.classList.add("spin");
-    } 
-
-    const spinning = document.querySelectorAll(".ImgOfSloth");
-    
-    spinning.addEventListener("mouseover", function (e) {
-      addSpin();
+      
     });
+
+
+
+
+
 
   

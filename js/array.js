@@ -8,5 +8,13 @@ slothsimg.forEach(slothimg => {
   hejsanhoppsan.src =slothimg;
   hejsan.appendChild(hejsanhoppsan);
 
+
 });
+
+// BEHÖVER VARA I EN LOOP FÖR ATT FUNKA PÅ ALLA, HUR?!?!?!!?!?
+
+document.querySelectorAll(".imgOfSloth").addEventListener("mouseover", function () {
+  const spinnings = document.querySelector(".imgOfSloth");
+  spinnings.classList.add("spin");
   
+});
