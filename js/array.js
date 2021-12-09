@@ -11,10 +11,15 @@ slothsimg.forEach(slothimg => {
 
 });
 
-// BEHÖVER VARA I EN LOOP FÖR ATT FUNKA PÅ ALLA, HUR?!?!?!!?!?
+// Loop för att få alla sloths att snurra on hoover. 
 
-document.querySelectorAll(".imgOfSloth").addEventListener("mouseover", function () {
-  const spinnings = document.querySelector(".imgOfSloth");
-  spinnings.classList.add("spin");
-  
+const spinnings = document.querySelectorAll(".imgOfSloth");
+
+spinnings.forEach(spinning => {
+
+  spinning.addEventListener("mouseover", function () {
+     spinning.classList.add("spin");
+})
+
 });
+

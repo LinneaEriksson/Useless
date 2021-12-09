@@ -44,7 +44,7 @@ function changeGif(){
 
     function changeBackground(){
 
-      // console.log(document.body.getBoundingClientRect())
+      // console.log(document.body.getBoundingClientRect()) 
 
       if (window.scrollY > window.innerHeight/2){
         document.body.classList.add('backgroundColor');
@@ -56,13 +56,13 @@ function changeGif(){
 
 
 
- // This is working! 
+ // 
   
-    document.querySelector(".imgOfSloth").addEventListener("mouseover", function () {
-      const spinnings = document.querySelector(".imgOfSloth");
-      spinnings.classList.add("spin");
+    // document.querySelector(".imgOfSloth").addEventListener("mouseover", function () {
+    //   const spinnings = document.querySelector(".imgOfSloth");
+    //   spinnings.classList.add("spin");
       
-    });
+    // });
 
 
 
