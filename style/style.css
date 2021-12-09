@@ -34,8 +34,20 @@ h1 {
   color: var(--mainFontColor);
   margin-top: 40px;
   font-family: var(--mainFont);
-  font-size: 30px;
+  font-size: 50px;
+  -webkit-text-stroke-width: 1px;
+ -webkit-text-stroke-color:var(--mainFontColor);
 }
+
+h2 {
+  color: var(--accentColor);
+ font-family: var(--mainFont);
+ font-size: 40px;
+ margin-top: 40px;
+ -webkit-text-stroke-width: 1px;
+ -webkit-text-stroke-color:var(--mainFontColor);
+}
+
 
 .pinkText {
   color: var(--accentColor) ;
@@ -63,7 +75,7 @@ img {
 }
 
 button {
-  font-family: 'chickenPie';
+  font-family: var(--mainFont);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -80,23 +92,13 @@ button {
 }
 
 button:hover{
-  background-color: rgb(70, 87, 62);
-  color: var(--accentColor)
+  color: var(--accentColor);
+  border-width: 3px;
+  border-color: var(--mainFontColor);
+  border-style: dotted;
 }
 
-.partyStarter {
-  background-color:  
-  var(--accentColor);
-  width: 200px;
-  height: 100px;
-  border-radius: 50%;
-  margin-bottom: 280px;
-}
 
-.partyStarter:hover {
-  background-color: rgb(218, 27, 122);
-  color: var(--mainFontColor);
-}
 
 .buttonContainer {
   display: flex;
