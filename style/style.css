@@ -11,46 +11,13 @@
   box-sizing: border-box;
 }
 
-@keyframes spin {
-  from {
-    transform: rotate(0);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 @font-face {
   font-family: 'myWebFont';
   src: url('fonts/Storytime.woff2') format('woff2');
 }
 
-
 body {
   background-color: var(--mainBackgroundColor);
-}
-
-h1 {
-  color: var(--mainFontColor);
-  margin-top: 40px;
-  font-family: var(--mainFont);
-  font-size: 50px;
-  -webkit-text-stroke-width: 1px;
- -webkit-text-stroke-color:var(--mainFontColor);
-}
-
-h2 {
-  color: var(--accentColor);
- font-family: var(--mainFont);
- font-size: 40px;
- margin-top: 40px;
- -webkit-text-stroke-width: 1px;
- -webkit-text-stroke-color:var(--mainFontColor);
-}
-
-
-.pinkText {
-  color: var(--accentColor) ;
 }
 
 img {
@@ -62,7 +29,6 @@ img {
   margin-top: 40px;
 }
 
-
 .container {
   display: flex;
   justify-content: center;
@@ -72,39 +38,6 @@ img {
 
 .slideUp {
   background-color: black;
-}
-
-button {
-  font-family: var(--mainFont);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--buttonColor);
-  color: var(--mainFontColor);
-  height: 80px;
-  width: 160px;
-  border: none;
-  margin-top: 40px;
-  font-size: 18px;
-  margin-left: 10px;
-  margin-right: 10px;
-  cursor: pointer;
-}
-
-button:hover{
-  color: var(--accentColor);
-  border-width: 3px;
-  border-color: var(--mainFontColor);
-  border-style: dotted;
-}
-
-
-
-.buttonContainer {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  align-items: center;
 }
 
 .slothsDiv {
@@ -118,10 +51,6 @@ width: 40px;
 background-color: transparent;
 margin: 10px;
 margin-top: 40px;
-}
-
-.spin {
-  animation: spin 1s linear infinite;
 }
 
 .partyImage {
@@ -138,11 +67,6 @@ margin-top: 40px;
     width: 40%;
   }
 
-  button {
-    margin-top: 40px;
-    margin-left: 20px;
-    margin-right: 20px;
-  }
   .imgOfSloth {
    margin: 40px;
    width: 40px;

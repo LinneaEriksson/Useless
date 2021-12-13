@@ -1,0 +1,42 @@
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+button {
+  font-family: var(--mainFont);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--buttonColor);
+  color: var(--mainFontColor);
+  height: 80px;
+  width: 160px;
+  border: none;
+  margin-top: 40px;
+  font-size: 18px;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+button:hover{
+  color: var(--accentColor);
+  border-width: 3px;
+  border-color: var(--mainFontColor);
+  border-style: dotted;
+}
+
+
+@media screen and (min-width: 700px){
+
+  button {
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+}
