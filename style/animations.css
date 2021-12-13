@@ -1,6 +1,6 @@
 /* Animation to change backgroundcolor */
 
-@keyframes move {
+@keyframes changeBackgroundColor {
   0% {
     background-color: rgb(255, 0, 0);
   }
@@ -37,7 +37,7 @@
 }
 
 .backgroundColor{
-  animation-name: move;
+  animation-name: changeBackgroundColor;
   animation-duration: 2s;
   animation-iteration-count: infinite;
   animation-direction: alternate;

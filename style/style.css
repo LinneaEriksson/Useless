@@ -18,15 +18,7 @@
 
 body {
   background-color: var(--mainBackgroundColor);
-}
-
-img {
-  padding: 20px;
-  background-color: var(--frameColor);
-  display: flex;
-  align-items: center;
-  width: 90%;
-  margin-top: 40px;
+  overflow-x: hidden;
 }
 
 .container {
@@ -45,33 +37,9 @@ img {
   flex-direction: row;
 }
 
-.imgOfSloth {
-padding: 0px;
-width: 40px;
-background-color: transparent;
-margin: 10px;
-margin-top: 40px;
-}
-
-.partyImage {
-  margin-bottom: 80px;
-}
 
 @media screen and (min-width: 700px){
 
-  .partyImage {
-    margin-bottom: 40px;
-  }
-
-  img {
-    width: 40%;
-  }
-
-  .imgOfSloth {
-   margin: 40px;
-   width: 40px;
-   margin-bottom: 0px;
-    }
     .partyStarter {
       margin-bottom: 40px;
     }
