@@ -56,10 +56,6 @@ function changeGif(){
 
 
 
- // 
-  
-
-
 
 
 
