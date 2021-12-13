@@ -25,6 +25,10 @@
     margin-top: 0px;
   }
 
+  .arrowDesktop {
+    display: none;
+  }
+
   @media screen and (min-width: 700px){
 
     .partyImage {
@@ -43,5 +47,12 @@
 
       .arrow {
         display: none;
+      }
+
+      .arrowDesktop {
+        display: block;
+        background-color: transparent;
+    width: 80px;
+    margin-top: 0px;
       }
   }  
