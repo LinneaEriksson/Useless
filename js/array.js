@@ -6,7 +6,7 @@ const slothsimg = ["/img/sloth.png",
 "/img/sloth.png", 
 "/img/sloth.png"];
 
-// loop fö
+// loop to make many sloths
 
 slothsimg.forEach(slothimg => {
 
