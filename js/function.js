@@ -14,6 +14,11 @@ const sloths = ["https://media.giphy.com/media/UtIv0Dp0ZhgQw/giphy.gif",
 ];
 
 
+// Function that randomizes a gif when site is updated. 
+
+window.addEventListener('DOMContentLoaded', changeGif)
+
+
 // Function that randomizes a gif. 
 
 function changeGif(){
