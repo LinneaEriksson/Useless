@@ -58,11 +58,7 @@ function changeGif(){
 
  // 
   
-    // document.querySelector(".imgOfSloth").addEventListener("mouseover", function () {
-    //   const spinnings = document.querySelector(".imgOfSloth");
-    //   spinnings.classList.add("spin");
-      
-    // });
+
 
 
 
