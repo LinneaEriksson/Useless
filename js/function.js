@@ -10,6 +10,7 @@ const sloths = ["https://media.giphy.com/media/UtIv0Dp0ZhgQw/giphy.gif",
 "https://media.giphy.com/media/G450NfEHoUo7e/giphy.gif",
 "https://media.giphy.com/media/QfmRynMcJiiHe/giphy.gif",
 "https://media.giphy.com/media/jt2ssP0zeoskzVjf4e/giphy.gif",
+"https://media.giphy.com/media/xNrM4cGJ8u3ao/giphy.gif",
 ];
 
 
