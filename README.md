@@ -25,5 +25,5 @@ This is a school project to do an useless web. You can visit my site here: https
 
 Tested by the following people:
 
-1. -
-2. -
+1. Nelly 
+2. Susanne
