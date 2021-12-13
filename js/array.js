@@ -1,4 +1,12 @@
-const slothsimg = ["/img/sloth.png", "/img/sloth.png", "/img/sloth.png", "/img/sloth.png", "/img/sloth.png", "/img/sloth.png", "/img/sloth.png"];
+const slothsimg = ["/img/sloth.png", 
+"/img/sloth.png", 
+"/img/sloth.png", 
+"/img/sloth.png", 
+"/img/sloth.png", 
+"/img/sloth.png", 
+"/img/sloth.png"];
+
+// loop fö
 
 slothsimg.forEach(slothimg => {
 
@@ -11,7 +19,7 @@ slothsimg.forEach(slothimg => {
 
 });
 
-// Loop för att få alla sloths att snurra on hoover. 
+// Loop to make all sloths spin on hover. 
 
 const spinnings = document.querySelectorAll(".imgOfSloth");
 
