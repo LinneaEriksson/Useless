@@ -12,9 +12,9 @@ slothsimg.forEach(slothimg => {
 
   const createImage = document.createElement('img');
   createImage.classList.add('imgOfSloth');
-  const hejsan = document.querySelector(".slothsDiv");
+  const getSlothDiv = document.querySelector(".slothsDiv");
   createImage.src =slothimg;
-  hejsan.appendChild(createImage);
+  getSlothDiv.appendChild(createImage);
 
 
 });
