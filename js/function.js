@@ -27,9 +27,9 @@ function changeGif(){
   document.getElementById("gif").src = randomGif;
   }
 
-  const buttonEat = document.querySelector('.sloth');
+  const buttonSloth = document.querySelector('.sloth');
 
-  buttonEat.addEventListener("click", function (e) {
+  buttonSloth.addEventListener("click", function (e) {
     changeGif();
   });
 
